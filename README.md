@@ -12,6 +12,8 @@ In this challenge, it is expected that we do the following:
     - Maximum number of pods: 6
  - Create a POD that ueses an endless loop to send requests to the web server and verify if the autoscaler is working as expected: increasing the number of replicas when the CPU utilization is higher than 15% and decreaing it when the CPU utilization is lower than 15%.
 
+**Note**: The Go application image can be pulled from [here](https://hub.docker.com/r/jpedronascimentofilho/go-hpa).
+
 ## Goal
 
 The goal of this challenge is to learn about `Horizontal Pod Autoscaler` in practice.
